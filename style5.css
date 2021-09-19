@@ -1,0 +1,80 @@
+body {
+  background-image:url(/home/zironi/Documenti/Boolean/css/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* {
+    font-family: 'Ubuntu', sans-serif;
+    }
+#container {
+  width: 1150px;
+  height: 1050px;
+  margin:auto;
+  border-radius: 25px;
+  padding: 30px 100px;
+  background: rgba(0, 0, 0, 0.5)
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 120px;
+  width: 270px;
+}
+
+h1 {
+  text-align: center;
+  color: #00FF00;
+}
+
+#bottoni {
+  text-align: center;
+  background-color: #00FF00;
+  width: 1000px;
+ padding: 25px;
+}
+
+ul {
+  list-style-type: square;
+  color: white;
+  font-size: 25px
+}
+
+.Monopattino, p {
+  color: white;
+  font-size: 20px;
+}
+
+.Monopattino
+
+{
+  color: white;
+  padding-left: 15px;
+}
+
+.Monopattino::before {
+  content: "\2192";
+}
+
+#caricamedia
+{
+  width: 400px;
+  height: 30px;
+  border-radius: 5px;
+  background: orange;
+}
+#caricalta
+{
+  width: 800px;
+  height: 30px;
+  border-radius: 5px;
+  background: #00FF00;
+}
+#caricabassa
+{
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  background: red;
+}
